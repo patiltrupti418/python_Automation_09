@@ -1,0 +1,24 @@
+INFO     conftest:conftest.py:95 Creating browser: chrome (headless=False)
+INFO     WDM:logger.py:11 xdist worker is: gw1
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/Users/ranjeetkendre/.wdm/gw1/drivers/chromedriver/mac64/148.0.7778.167/chromedriver-mac-arm64/chromedriver] found in cache
+INFO     conftest:conftest.py:178 Browser created: chrome
+INFO     utilities.config_reader:config_reader.py:75 Config loaded for environment: qa
+INFO     conftest:conftest.py:223 Navigated to: https://demoblaze.com/
+INFO     test_product:test_product.py:76 TC006: Add Single Product Test
+INFO     pages.home_page:home_page.py:146 Selecting product: Samsung galaxy s6
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.product_page:product_page.py:83 Adding product to cart
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Add to cart']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Add to cart']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 2 seconds (avoid in production code)
+INFO     pages.base_page:base_page.py:331 Accepting alert
+INFO     pages.base_page:base_page.py:197 Waiting for alert
+INFO     pages.base_page:base_page.py:335 Alert accepted. Text was: 'Product added'
+INFO     pages.product_page:product_page.py:95 Cart alert: Product added
+INFO     test_product:test_product.py:91 TC006: PASSED - Single product added to cart
+INFO     conftest:conftest.py:230 Closing browser

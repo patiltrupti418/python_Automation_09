@@ -1,0 +1,20 @@
+INFO     conftest:conftest.py:95 Creating browser: chrome (headless=False)
+INFO     WDM:logger.py:11 xdist worker is: gw3
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 There is no [mac64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 WebDriver version 148.0.7778.167 selected
+INFO     WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/mac-arm64/chromedriver-mac-arm64.zip
+INFO     WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/mac-arm64/chromedriver-mac-arm64.zip
+INFO     WDM:logger.py:11 Driver downloading response is 200
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver has been saved in cache [/Users/ranjeetkendre/.wdm/gw3/drivers/chromedriver/mac64/148.0.7778.167]
+INFO     conftest:conftest.py:178 Browser created: chrome
+INFO     utilities.config_reader:config_reader.py:75 Config loaded for environment: qa
+INFO     conftest:conftest.py:223 Navigated to: https://demoblaze.com/
+INFO     test_e2e:test_e2e.py:153 TC016: Broken Link Validation Test
+INFO     test_e2e:test_e2e.py:209 Total links checked: 4, broken: 0
+INFO     test_e2e:test_e2e.py:217 TC016: PASSED - No broken links found
+INFO     conftest:conftest.py:230 Closing browser

@@ -1,0 +1,16 @@
+[32mINFO    [0m conftest:conftest.py:59 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+[32mINFO    [0m conftest:conftest.py:125 Browser created: chrome
+[32mINFO    [0m utilities.config_reader:config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:152 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_e2e:test_e2e.py:76 TC014: Verify Navigation Menu Test
+[32mINFO    [0m pages.base_page:base_page.py:215 Element is visible: ('xpath', "//a[contains(@class,'nav-link') and text()='Home ']")
+[32mINFO    [0m pages.base_page:base_page.py:215 Element is visible: ('xpath', "//a[text()='Contact']")
+[32mINFO    [0m pages.base_page:base_page.py:215 Element is visible: ('id', 'cartur')
+[32mINFO    [0m pages.home_page:home_page.py:245 Navigation - Home: True, Contact: True, Cart: True
+[32mINFO    [0m pages.base_page:base_page.py:215 Element is visible: ('id', 'carouselExampleIndicators')
+[32mINFO    [0m test_e2e:test_e2e.py:86 TC014: PASSED - Navigation menu verified
+[32mINFO    [0m conftest:conftest.py:156 Closing browser

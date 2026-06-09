@@ -1,0 +1,30 @@
+[32mINFO    [0m conftest:conftest.py:59 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+[32mINFO    [0m conftest:conftest.py:125 Browser created: chrome
+[32mINFO    [0m utilities.config_reader:config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:152 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_login:test_login.py:92 TC002: Invalid Login Test
+[32mINFO    [0m pages.login_page:login_page.py:94 Performing login with user: invaliduser123
+[32mINFO    [0m pages.login_page:login_page.py:57 Opening login modal
+[32mINFO    [0m pages.base_page:base_page.py:80 Clicking element: ('id', 'login2')
+[32mINFO    [0m pages.base_page:base_page.py:86 Clicked element: ('id', 'login2')
+[33mWARNING [0m pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m pages.login_page:login_page.py:66 Entering username: invaliduser123
+[32mINFO    [0m pages.base_page:base_page.py:93 Entering text 'invaliduser123' into: ('id', 'loginusername')
+[32mINFO    [0m pages.base_page:base_page.py:100 Text entered successfully: ('id', 'loginusername')
+[32mINFO    [0m pages.login_page:login_page.py:73 Entering password
+[32mINFO    [0m pages.base_page:base_page.py:93 Entering text 'wrongpass' into: ('id', 'loginpassword')
+[32mINFO    [0m pages.base_page:base_page.py:100 Text entered successfully: ('id', 'loginpassword')
+[32mINFO    [0m pages.login_page:login_page.py:80 Clicking login button
+[32mINFO    [0m pages.base_page:base_page.py:80 Clicking element: ('xpath', "//button[text()='Log in']")
+[32mINFO    [0m pages.base_page:base_page.py:86 Clicked element: ('xpath', "//button[text()='Log in']")
+[33mWARNING [0m pages.base_page:base_page.py:202 Hard wait: 2 seconds (avoid in production code)
+[32mINFO    [0m pages.login_page:login_page.py:166 Getting alert message
+[32mINFO    [0m pages.base_page:base_page.py:331 Accepting alert
+[32mINFO    [0m pages.base_page:base_page.py:197 Waiting for alert
+[32mINFO    [0m pages.base_page:base_page.py:335 Alert accepted. Text was: 'User does not exist.'
+[32mINFO    [0m test_login:test_login.py:110 TC002: PASSED - Invalid login shows error
+[32mINFO    [0m conftest:conftest.py:156 Closing browser

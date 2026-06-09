@@ -1,0 +1,23 @@
+[32mINFO    [0m conftest:conftest.py:59 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+[32mINFO    [0m conftest:conftest.py:125 Browser created: chrome
+[32mINFO    [0m utilities.config_reader:config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:152 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_product:test_product.py:47 TC006: Add Single Product Test
+[32mINFO    [0m pages.home_page:home_page.py:146 Selecting product: Samsung galaxy s6
+[32mINFO    [0m pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+[32mINFO    [0m pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+[33mWARNING [0m pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+[32mINFO    [0m pages.product_page:product_page.py:83 Adding product to cart
+[32mINFO    [0m pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Add to cart']")
+[32mINFO    [0m pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Add to cart']")
+[33mWARNING [0m pages.base_page:base_page.py:202 Hard wait: 2 seconds (avoid in production code)
+[32mINFO    [0m pages.base_page:base_page.py:331 Accepting alert
+[32mINFO    [0m pages.base_page:base_page.py:197 Waiting for alert
+[32mINFO    [0m pages.base_page:base_page.py:335 Alert accepted. Text was: 'Product added'
+[32mINFO    [0m pages.product_page:product_page.py:95 Cart alert: Product added
+[32mINFO    [0m test_product:test_product.py:62 TC006: PASSED - Single product added to cart
+[32mINFO    [0m conftest:conftest.py:156 Closing browser

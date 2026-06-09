@@ -1,0 +1,57 @@
+INFO     conftest:conftest.py:95 Creating browser: chrome (headless=False)
+INFO     WDM:logger.py:11 xdist worker is: gw0
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/Users/ranjeetkendre/.wdm/gw0/drivers/chromedriver/mac64/148.0.7778.167/chromedriver-mac-arm64/chromedriver] found in cache
+INFO     conftest:conftest.py:178 Browser created: chrome
+INFO     utilities.config_reader:config_reader.py:75 Config loaded for environment: qa
+INFO     conftest:conftest.py:223 Navigated to: https://demoblaze.com/
+INFO     test_cart:test_cart.py:136 TC009: Verify Cart Total Test
+INFO     pages.home_page:home_page.py:146 Selecting product: Samsung galaxy s6
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.product_page:product_page.py:83 Adding product to cart
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Add to cart']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Add to cart']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 2 seconds (avoid in production code)
+INFO     pages.base_page:base_page.py:331 Accepting alert
+INFO     pages.base_page:base_page.py:197 Waiting for alert
+INFO     pages.base_page:base_page.py:335 Alert accepted. Text was: 'Product added'
+INFO     pages.product_page:product_page.py:95 Cart alert: Product added
+INFO     pages.product_page:product_page.py:132 Navigating back to home
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Home ']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Home ']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.home_page:home_page.py:146 Selecting product: Nokia lumia 1520
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Nokia lumia 1520']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Nokia lumia 1520']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.product_page:product_page.py:83 Adding product to cart
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Add to cart']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Add to cart']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 2 seconds (avoid in production code)
+INFO     pages.base_page:base_page.py:331 Accepting alert
+INFO     pages.base_page:base_page.py:197 Waiting for alert
+INFO     pages.base_page:base_page.py:335 Alert accepted. Text was: 'Product added'
+INFO     pages.product_page:product_page.py:95 Cart alert: Product added
+INFO     pages.product_page:product_page.py:132 Navigating back to home
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Home ']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Home ']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+WARNING  pages.base_page:base_page.py:202 Hard wait: 2 seconds (avoid in production code)
+INFO     pages.cart_page:cart_page.py:64 Getting total price
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.base_page:base_page.py:119 Getting text from: ('id', 'totalp')
+INFO     pages.base_page:base_page.py:125 Text found: '1180'
+INFO     pages.cart_page:cart_page.py:69 Total price: 1180
+INFO     test_cart:test_cart.py:159 Cart total: 1180
+INFO     pages.cart_page:cart_page.py:55 Getting cart prices
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.cart_page:cart_page.py:59 Cart prices: ['360', '820']
+INFO     test_cart:test_cart.py:174 Sum of prices: 1180, Displayed total: 1180
+INFO     test_cart:test_cart.py:184 TC009 PASSED - Cart total verified successfully
+INFO     conftest:conftest.py:230 Closing browser

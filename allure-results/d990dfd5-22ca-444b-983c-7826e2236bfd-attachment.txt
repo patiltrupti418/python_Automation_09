@@ -1,0 +1,46 @@
+INFO     conftest:conftest.py:95 Creating browser: chrome (headless=False)
+INFO     WDM:logger.py:11 xdist worker is: gw0
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 There is no [mac64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 WebDriver version 148.0.7778.167 selected
+INFO     WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/mac-arm64/chromedriver-mac-arm64.zip
+INFO     WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/mac-arm64/chromedriver-mac-arm64.zip
+INFO     WDM:logger.py:11 Driver downloading response is 200
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver has been saved in cache [/Users/ranjeetkendre/.wdm/gw0/drivers/chromedriver/mac64/148.0.7778.167]
+INFO     conftest:conftest.py:178 Browser created: chrome
+INFO     utilities.config_reader:config_reader.py:75 Config loaded for environment: qa
+INFO     conftest:conftest.py:223 Navigated to: https://demoblaze.com/
+INFO     test_cart:test_cart.py:68 TC008: Remove Product from Cart Test
+INFO     pages.home_page:home_page.py:146 Selecting product: Samsung galaxy s6
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Samsung galaxy s6']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Samsung galaxy s6']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.product_page:product_page.py:83 Adding product to cart
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Add to cart']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Add to cart']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 2 seconds (avoid in production code)
+INFO     pages.base_page:base_page.py:331 Accepting alert
+INFO     pages.base_page:base_page.py:197 Waiting for alert
+INFO     pages.base_page:base_page.py:335 Alert accepted. Text was: 'Product added'
+INFO     pages.product_page:product_page.py:95 Cart alert: Product added
+WARNING  pages.base_page:base_page.py:202 Hard wait: 2 seconds (avoid in production code)
+INFO     pages.cart_page:cart_page.py:39 Getting cart items
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.cart_page:cart_page.py:43 Cart items: ['Samsung galaxy s6']
+INFO     pages.cart_page:cart_page.py:50 Cart item count: 1
+INFO     test_cart:test_cart.py:85 Cart items before delete: 1
+INFO     pages.cart_page:cart_page.py:91 Deleting first cart item
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Delete']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Delete']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+WARNING  pages.base_page:base_page.py:202 Hard wait: 2 seconds (avoid in production code)
+INFO     pages.cart_page:cart_page.py:39 Getting cart items
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.cart_page:cart_page.py:43 Cart items: []
+INFO     pages.cart_page:cart_page.py:50 Cart item count: 0
+INFO     test_cart:test_cart.py:101 TC008 PASSED - Item removed successfully. Before: 1, After: 0
+INFO     conftest:conftest.py:230 Closing browser

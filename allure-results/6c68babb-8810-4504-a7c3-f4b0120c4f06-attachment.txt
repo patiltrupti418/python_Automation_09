@@ -1,0 +1,18 @@
+[32mINFO    [0m conftest:conftest.py:59 Creating browser: chrome (headless=False)
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/ranjeetkendre/.wdm/drivers/chromedriver/mac64/148.0.7778.178/chromedriver-mac-arm64/chromedriver] found in cache
+[32mINFO    [0m conftest:conftest.py:125 Browser created: chrome
+[32mINFO    [0m utilities.config_reader:config_reader.py:36 Config loaded for environment: qa
+[32mINFO    [0m conftest:conftest.py:152 Navigated to: https://demoblaze.com/
+[32mINFO    [0m test_e2e:test_e2e.py:227 TC018: Cross Browser Test
+[32mINFO    [0m pages.base_page:base_page.py:215 Element is visible: ('id', 'carouselExampleIndicators')
+[32mINFO    [0m pages.base_page:base_page.py:56 Page title: STORE
+[32mINFO    [0m test_e2e:test_e2e.py:236 Page title: STORE
+[32mINFO    [0m pages.base_page:base_page.py:215 Element is visible: ('xpath', "//a[text()='Phones']")
+[32mINFO    [0m pages.base_page:base_page.py:215 Element is visible: ('xpath', "//a[text()='Laptops']")
+[32mINFO    [0m pages.base_page:base_page.py:215 Element is visible: ('xpath', "//a[text()='Monitors']")
+[32mINFO    [0m pages.home_page:home_page.py:231 Categories visible - Phones: True, Laptops: True, Monitors: True
+[32mINFO    [0m test_e2e:test_e2e.py:246 TC018: PASSED - Cross browser verification complete
+[32mINFO    [0m conftest:conftest.py:156 Closing browser

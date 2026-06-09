@@ -1,0 +1,19 @@
+INFO     conftest:conftest.py:95 Creating browser: chrome (headless=False)
+INFO     WDM:logger.py:11 xdist worker is: gw2
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.167/chromedriver-mac-arm64/chromedriver] found in cache
+INFO     conftest:conftest.py:178 Browser created: chrome
+INFO     utilities.config_reader:config_reader.py:75 Config loaded for environment: qa
+INFO     conftest:conftest.py:223 Navigated to: https://demoblaze.com/
+INFO     test_e2e:test_e2e.py:314 TC018: Cross Browser Test
+INFO     pages.base_page:base_page.py:215 Element is visible: ('id', 'carouselExampleIndicators')
+INFO     pages.base_page:base_page.py:56 Page title: STORE
+INFO     test_e2e:test_e2e.py:323 Page title: STORE
+INFO     pages.base_page:base_page.py:215 Element is visible: ('xpath', "//a[text()='Phones']")
+INFO     pages.base_page:base_page.py:215 Element is visible: ('xpath', "//a[text()='Laptops']")
+INFO     pages.base_page:base_page.py:215 Element is visible: ('xpath', "//a[text()='Monitors']")
+INFO     pages.home_page:home_page.py:231 Categories visible - Phones: True, Laptops: True, Monitors: True
+INFO     test_e2e:test_e2e.py:333 TC018: PASSED - Cross browser verification complete
+INFO     conftest:conftest.py:230 Closing browser

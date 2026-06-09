@@ -1,0 +1,44 @@
+INFO     conftest:conftest.py:95 Creating browser: chrome (headless=False)
+INFO     WDM:logger.py:11 xdist worker is: gw2
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 There is no [mac64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 WebDriver version 148.0.7778.167 selected
+INFO     WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/mac-arm64/chromedriver-mac-arm64.zip
+INFO     WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/mac-arm64/chromedriver-mac-arm64.zip
+INFO     WDM:logger.py:11 Driver downloading response is 200
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver has been saved in cache [/Users/ranjeetkendre/.wdm/gw2/drivers/chromedriver/mac64/148.0.7778.167]
+INFO     conftest:conftest.py:178 Browser created: chrome
+INFO     utilities.config_reader:config_reader.py:75 Config loaded for environment: qa
+INFO     conftest:conftest.py:223 Navigated to: https://demoblaze.com/
+INFO     test_contact:test_contact.py:53 TC015: Contact Form Submission Test
+INFO     utilities.random_data_generator:random_data_generator.py:87 Generated email: test_idena_014256@test.com
+INFO     utilities.random_data_generator:random_data_generator.py:146 Generated name: Laura
+INFO     pages.home_page:home_page.py:64 Clicking Contact link
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//a[text()='Contact']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//a[text()='Contact']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.contact_page:contact_page.py:70 Filling and sending contact form
+INFO     pages.contact_page:contact_page.py:38 Entering contact email: test_idena_014256@test.com
+INFO     pages.base_page:base_page.py:93 Entering text 'test_idena_014256@test.com' into: ('id', 'recipient-email')
+INFO     pages.base_page:base_page.py:100 Text entered successfully: ('id', 'recipient-email')
+INFO     pages.contact_page:contact_page.py:44 Entering contact name: Laura
+INFO     pages.base_page:base_page.py:93 Entering text 'Laura' into: ('id', 'recipient-name')
+INFO     pages.base_page:base_page.py:100 Text entered successfully: ('id', 'recipient-name')
+INFO     pages.contact_page:contact_page.py:50 Entering message: This is an automated test message for contact form...
+INFO     pages.base_page:base_page.py:93 Entering text 'This is an automated test message for contact form validation.' into: ('id', 'message-text')
+INFO     pages.base_page:base_page.py:100 Text entered successfully: ('id', 'message-text')
+INFO     pages.contact_page:contact_page.py:56 Clicking Send message button
+INFO     pages.base_page:base_page.py:80 Clicking element: ('xpath', "//button[text()='Send message']")
+INFO     pages.base_page:base_page.py:86 Clicked element: ('xpath', "//button[text()='Send message']")
+WARNING  pages.base_page:base_page.py:202 Hard wait: 1 seconds (avoid in production code)
+INFO     pages.base_page:base_page.py:331 Accepting alert
+INFO     pages.base_page:base_page.py:197 Waiting for alert
+INFO     pages.base_page:base_page.py:335 Alert accepted. Text was: 'Thanks for the message!!'
+INFO     pages.contact_page:contact_page.py:82 Contact alert: Thanks for the message!!
+INFO     test_contact:test_contact.py:77 Contact form alert: Thanks for the message!!
+INFO     test_contact:test_contact.py:87 TC015: PASSED - Contact form submitted successfully
+INFO     conftest:conftest.py:230 Closing browser
